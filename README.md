@@ -1,5 +1,7 @@
 # EMG-to-ROS
-EMG signal processing pipeline and data repo for control of a robotic arm via ROS
+EMG signal processing pipeline and data repo for control of a robotic arm via ROS.
+
+A file of raw EMG data from the muscles of interest is processed in analysis_v5.py. The output of this program is then used to control the Baxter robot via motion.py.
 
 Each file is named in the form pAmBtC.csv, where A is the number of the muscle being recorded, see Table X  for those pairings, B is the motion sequence being recorded, and C is the trial number for that particular recording. Thus, the file containing the data for the biceps brachii EMG signal during the fourth sequence would be found in the p7m4t1.csv file. Note that position 10, for the brachioradialis, uses X as the muscle number so the files are properly sorted.
 
