@@ -44,7 +44,7 @@ for i in range(1, 9):
         if i == 2:
             avg_amp = sum(amplitude[o:1000+o])/100
             if avg_amp > 0.05:
-                all_onsets.append([int(o), 2.2])
+                all_onsets.append([int(o), 4.2])
             else:
                 all_onsets.append([int(o), i])
         else:
